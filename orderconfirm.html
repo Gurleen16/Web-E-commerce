@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<style media="screen">
+  button
+  {
+    border-radius:5px;
+    height:50px;
+    width:300px;
+    border:0.5px solid gray;
+    background:blue;
+    color:black;
+  }
+</style>
+<body>
+  <h1>ORDER CONFIRMED</h1>
+  <h3>Thanks for shopping...............</h3>
+  <br>
+  <br>
+  <button id="continueBtn" type="button" name="button">Continue Shopping</button>
+</body>
+<script >
+  //var continue=document.getElementById("continueBtn");
+  document.getElementById("continueBtn").addEventListener("click",function(event)
+{
+  window.location.href='/home/gurleen/web/web-ecommerce/showProducts.html'
+});
+</script>
+</html>
